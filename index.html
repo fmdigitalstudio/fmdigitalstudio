@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FM Digital Studio | Agence digitale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>FM Digital Studio</h1>
+        <p>Votre créativité, notre expertise numérique.</p>
+    </header>
+<nav class="navigation">
+    <div class="nav-logo">FM</div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#apropos">À propos</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#avantages">Avantages</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+    <main>
+<section id="accueil" class="hero">
+    <p class="hero-badge">CRÉATIVITÉ • TECHNOLOGIE • INNOVATION</p>
+    <h2> Donnons vie à vos <span>idées numériques.</span></h2>
+    <p class="hero-description">FM Digital Studio accompagne les entreprises, les entrepreneurs et les particuliers grâce à des sites web modernes et des créations graphiques percutantes.</p>
+    <div class="hero-actions">
+        <a href="#services" class="btn btn-primary">Découvrir nos services</a>
+        <a href="#contact" class="btn btn-secondary">Parlons de votre projet</a>
+        <a href="#contact" class="btn btn-primary">Demander un devis</a>
+    </div>
+</section>
+<section id="services" class="services">
+    <p class="section-badge">CE QUE NOUS FAISONS</p>
+    <h2>Nos services</h2>
+    <p class="services-intro">Des solutions créatives pour développer votre présence numérique.</p>
+    <div class="services-grid">
+        <article class="service-card"><div class="service-icon">💻</div><h3>Développement web</h3><p>Création de sites web modernes, responsives et adaptés à vos besoins.</p></article>
+        <article class="service-card"><div class="service-icon">🎨</div><h3>Design graphique</h3><p>Création de visuels professionnels pour valoriser votre image de marque.</p></article>
+        <article class="service-card"><div class="service-icon">📢</div><h3>Publicité digitale</h3><p>Conception d'affiches et de visuels pour promouvoir vos activités.</p></article>
+    </div>
+</section>
+<section id="apropos" class="about">
+    <p class="section-badge">QUI SOMMES-NOUS ?</p>
+    <h2>La créativité au service de vos ambitions</h2>
+    <p class="about-description">FM Digital Studio est une agence digitale qui accompagne les entreprises, les entrepreneurs et les particuliers dans leurs projets numériques. Notre objectif est de transformer vos idées en solutions créatives, modernes et efficaces.</p>
+    <div class="about-values">
+        <div class="value-item"><span>✦</span><h3>Créativité</h3><p>Des idées originales adaptées à vos projets.</p></div>
+        <div class="value-item"><span>⚡</span><h3>Innovation</h3><p>Des solutions modernes et adaptées au numérique.</p></div>
+        <div class="value-item"><span>✓</span><h3>Engagement</h3><p>Une attention particulière portée à chaque projet.</p></div>
+    </div>
+</section>
+<section id="portfolio" class="portfolio">
+    <p class="section-badge">NOS CRÉATIONS</p>
+    <h2>Quelques réalisations</h2>
+    <p class="portfolio-intro">Découvrez les domaines dans lesquels FM Digital Studio peut donner vie à vos idées.</p>
+    <div class="portfolio-grid">
+        <article class="portfolio-card"><div class="portfolio-visual web-visual"><span>WEB</span></div><h3>Sites web modernes</h3><p>Des sites adaptés aux téléphones, tablettes et ordinateurs.</p></article>
+        <article class="portfolio-card"><div class="portfolio-visual design-visual"><span>DESIGN</span></div><h3>Design graphique</h3><p>Des créations visuelles pour valoriser votre identité.</p></article>
+        <article class="portfolio-card"><div class="portfolio-visual pub-visual"><span>PUBLICITÉ</span></div><h3>Visuels publicitaires</h3><p>Des supports créatifs pour promouvoir vos activités.</p></article>
+    </div>
+</section>
+<section id="avantages" class="advantages">
+    <p class="section-badge">NOTRE ENGAGEMENT</p>
+    <h2>Pourquoi choisir FM Digital Studio ?</h2>
+    <p class="advantages-intro">Nous mettons notre créativité et notre savoir-faire au service de vos objectifs numériques.</p>
+    <div class="advantages-grid">
+        <article class="advantage-card"><div class="advantage-icon">✨</div><h3>Créativité</h3><p>Des propositions visuelles originales adaptées à l'identité de votre projet.</p></article>
+        <article class="advantage-card"><div class="advantage-icon">📱</div><h3>Design responsive</h3><p>Des sites pensés pour les téléphones, les tablettes et les ordinateurs.</p></article>
+        <article class="advantage-card"><div class="advantage-icon">🤝</div><h3>Écoute et accompagnement</h3><p>Une attention portée à vos besoins tout au long de votre projet.</p></article>
+    </div>
+</section>
+<section id="contact" class="contact">
+    <p class="section-badge">TRAVAILLONS ENSEMBLE</p>
+    <h2>Parlons de votre projet</h2>
+    <p class="contact-intro">Vous avez une idée ? Présentez-nous votre projet et préparons ensemble sa réalisation.</p>
+    <form class="contact-form">
+        <div class="form-group"><label for="nom">Votre nom</label><input type="text" id="nom" name="nom" placeholder="Ex. : Jean Dupont" required></div>
+        <div class="form-group"><label for="email">Votre adresse e-mail</label><input type="email" id="email" name="email" placeholder="Ex. : jean@email.com" required></div>
+        <div class="form-group"><label for="service">Service souhaité</label><select id="service" name="service" required><option value="">Choisissez un service</option><option value="site-web">Développement web</option><option value="design">Design graphique</option><option value="publicite">Publicité digitale</option><option value="autre">Autre projet</option></select></div>
+        <div class="form-group"><label for="message">Votre message</label><textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet..." required></textarea></div>
+        <button type="submit" class="btn btn-primary">Envoyer ma demande</button>
+    </form>
+</section>
+    </main>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-brand"><h2>FM Digital Studio</h2><p>Créativité, technologie et innovation au service de vos projets.</p></div>
+        <div class="footer-links"><h3>Navigation</h3><a href="#accueil">Accueil</a><a href="#services">Services</a><a href="#apropos">À propos</a><a href="#contact">Contact</a></div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 FM Digital Studio. Tous droits réservés.</p><p>Conçu avec passion au Bénin.</p></div>
+</footer>
+<a href="https://wa.me/2290192482182" class="whatsapp-float" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+<a href="#accueil" class="back-to-top">↑</a>
+<script src="script.js"></script>
+</body>
+</html>
